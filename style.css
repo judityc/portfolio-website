@@ -134,4 +134,9 @@ img:hover {
     grid-template-columns: 270px;
     justify-content: center;
   }
+  .card-front{
+    img {
+      width: 270px;
+    }
+  }
 }

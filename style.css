@@ -94,10 +94,10 @@ i {
   overflow: inherit;
 }
 .card {
-  transition: transform 1500ms;
+  transition: transform 500ms;
   transform-style: preserve-3d;
 }
-.card:hover {
+.project:hover > .card {
   transform: rotateY(180deg);
 }
 
@@ -125,8 +125,8 @@ img:hover {
 
 .projects-container {
   display: grid;
-  grid-template-columns: 300px 300px;
-  gap: 30px;
+  grid-template-columns: 300px 300px 300px;
+  gap: 40px;
 }
 
 @media (max-width: 690px) {
